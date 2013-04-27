@@ -1,0 +1,19 @@
+#ignore IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/*
+.idea
+
+#ignore build outputs, buildr test report and db folder
+out/
+reports/
+target/
+stub.java
+junitvmwatcher*.properties
+.bundle/
+
+
+#ignore some file in functionaltest
+.DS_Store
+**/.DS_Store
